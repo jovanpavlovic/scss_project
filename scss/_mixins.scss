@@ -1,0 +1,52 @@
+@mixin general(){
+	font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+@mixin pad-mar(){
+	margin: 0;
+    padding: 0;
+}
+
+@mixin person-style(){
+	width: 15px;
+	height: 15px;
+	background-color: #f76126;
+}
+
+@mixin dis-flex(){
+	display: flex;
+	justify-content: space-between;
+}
+
+@mixin dis-flex-cent(){
+	display: flex;
+	align-items: center;
+}
+
+@mixin dis-flex-space(){
+	display: flex;
+	justify-content: space-around;
+}
+
+@mixin def-font(){
+	font-size: 13px;
+}
+
+@mixin pointer(){
+	cursor: pointer;
+}
+
+@mixin design-style(){
+	text-align: center; 
+	font-size: 14px;
+    color: #5D636B;
+    width: 140px;
+}
+
+@mixin slide-style(){
+	width: 10px;
+	height: 10px;
+	border-radius: 100%;
+	background-color: #b8b5b5;
+}
